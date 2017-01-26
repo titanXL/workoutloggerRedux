@@ -6,7 +6,7 @@ export default class Main extends Component {
     return (
       <div>
         <AddWorkoutForm {...this.props}/>
-        {this.props.workouts.map((workout, i) => (
+        {this.props.workouts.workouts.map((workout, i) => (
            <Workout key={i} index={i} workout={workout} {...this.props}/>
          ))}
       </div>

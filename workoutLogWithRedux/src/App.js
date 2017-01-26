@@ -5,7 +5,7 @@ import Main from './components/Main'
 
 function mapStateToProps (state) {
   return {
-    workouts: state.workouts
+    workouts: state
   }
 }
 
